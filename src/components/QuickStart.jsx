@@ -20,25 +20,29 @@ const styles = {
     fontWeight: "500",
   },
   cardBody: {
-    fontWeight: "normal"
-  }
+    fontWeight: "normal",
+  },
 };
 
 export default function QuickStart() {
   return (
     <Card
       style={styles.card}
-      title={
-        <div style={styles.header}>
-          Welcome to my DApp
-        </div>
-      }
+      title={<div style={styles.header}>Welcome to my DApp</div>}
     >
-      <div >
-        <img style={{ display: "block", margin: "0 auto" }} src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/685/7009016685_ed272c55-c923-4238-9047-3aa540c2cd70.png?cb=1647947346" />
+      <div>
+        <img
+          style={{ display: "block", margin: "0 auto" }}
+          src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/685/7009016685_ed272c55-c923-4238-9047-3aa540c2cd70.png?cb=1647947346"
+        />
         <br></br>
       </div>
-      <div style={styles.cardBody}> A DApp which connects with your Wallet, and can be used to transfer funds, hold FIAT, See Balances, List down the Transfers, See NFTs, List contracts and so on.</div>
-    </Card >
+      <div style={styles.cardBody}>
+        {" "}
+        A DApp which connects with your Wallet, and can be used to transfer
+        funds, hold FIAT, See Balances, List down the Transfers, See NFTs, List
+        contracts and so on.
+      </div>
+    </Card>
   );
-};
+}
