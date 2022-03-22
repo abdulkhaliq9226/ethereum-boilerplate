@@ -23,9 +23,8 @@
 // };
 
 export default function QuickStart() {
-
-  return (`<div>
+  return `<div>
       TEST
     </div>
-    `);
+    `;
 }
